@@ -6,7 +6,7 @@ export const Projects = () => {
     <section id='projects'>
       <div className='py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6'>
         <div className="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
-          <h2 className='mb-4 text-3xl lg:text-5xl tracking-wide font-bold text-[#FC575E] uppercase'>Proyectos</h2>
+          <h2 className='mb-4 text-3xl lg:text-5xl tracking-wide font-bold text-[#FC575E] uppercase'>Proyectos <span className='italic text-yellow-400 font-bold'>🚧 En construcción</span></h2>
           <p className='font-light text-sm md:text-xl text-white'>Aqui es donde se encuentran mis mejores proyectos</p>
         </div>
         <div className='p-5 grid gap-5 lg:gap-10 lg:grid-cols-3'>
