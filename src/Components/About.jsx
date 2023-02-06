@@ -1,4 +1,3 @@
-import { FaReact } from 'react-icons/fa'
 import AboutMe from '../assets/about.svg'
 
 export const About = () => {
@@ -6,10 +5,10 @@ export const About = () => {
     <section id='about' className='px-10'>
       <div className='container mx-auto py-40 flex flex-col-reverse lg:flex-row items-center gap-20'>
         <div className='hidden md:block w-[550px] overflow-hidden'>
-          <img src={AboutMe} alt=""/>
+          <img src={AboutMe}/>
         </div>
         <div className='my-auto flex flex-col gap-3 text-white text-center lg:text-left'>
-          <h1 className='text-[#FC575E] font-bold uppercase'>About Me</h1>
+          <h1 className='text-[#FC575E] font-bold uppercase'>Acerca de mi</h1>
           <h3 className='text-3xl lg:text-4xl font-bold'>Full-stack Developer</h3>
           <p>Me desempeño ampliamente en la creación de páginas utilizando diversas herramientas:
             Ademas de utilizar herramientas Cloud, principalmente AWS [EC2, S3]

@@ -1,5 +1,5 @@
 import { AiFillGithub } from "react-icons/ai";
-import { HiOutlineDocument } from "react-icons/hi";
+import { HiOutlineDocumentText } from "react-icons/hi";
 
 export const Buttons = () => {
   return (
@@ -10,7 +10,7 @@ export const Buttons = () => {
         target='_blank'
         className="flex flex-row gap-5 justify-center px-8 py-3 text-lg font-semibold rounded-md shadow-lg border focus:outline-transparent hover:bg-[#FC575E] hover:border-[#FC575E] focus:bg-[#FC575E] transition duration-500"
       >
-        <HiOutlineDocument className="self-center" /> Resume
+        <HiOutlineDocumentText className="self-center" /> Resume
         
       </a>
       <a
