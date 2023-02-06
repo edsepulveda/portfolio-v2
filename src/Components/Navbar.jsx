@@ -4,14 +4,18 @@ import { useState } from 'react'
 import { SiApachesolr } from 'react-icons/si'
 import { Link } from './Link'
 import { HiOutlineMenuAlt1 } from 'react-icons/hi'
-import { AiOutlineClose, AiOutlineDownload} from 'react-icons/ai'
+import { AiOutlineClose} from 'react-icons/ai'
 import { motion } from 'framer-motion'
 
 export const Navbar = ({ topofPage, selectedPage, setSelectedPage }) => {
   
   const [menuToggled, setMenuToggled] = useState(false)
   const isSmallScreen = useMediaQuery('(min-width: 780px)')
-  const onScrollNavbarBackground = topofPage ? "" : 'bg-[#1c2e4a]'
+  const onScrollNavbarBackground = topofPage ? "bg-[#1c2e4a]" : 'bg-[#1c2e4a]'
+
+  const handleMenu = () => {
+    setMenuToggled((prev) => !prev)
+  }
 
 
   return (
@@ -26,7 +30,7 @@ export const Navbar = ({ topofPage, selectedPage, setSelectedPage }) => {
           {/* Desktop Menu */}
           {
             isSmallScreen ? (
-              <div className='flex justify-between gap-16 text-sm'>
+              <div className='flex justify-between gap-16 text-sm uppercase'>
                 <ul>
                   {
                     navLinks.map((item) => (
@@ -40,7 +44,7 @@ export const Navbar = ({ topofPage, selectedPage, setSelectedPage }) => {
                   }
                 </ul>
               </div>
-            ) : (<button className='rounded-full bg-[#EE4E34] p-2' onClick={() => setMenuToggled(!menuToggled)}>
+            ) : (<button className='rounded-full bg-[#FC575E] p-2' onClick={handleMenu}>
               <HiOutlineMenuAlt1 size={20} className='text-white'/>
             </button>) 
           }
@@ -50,7 +54,7 @@ export const Navbar = ({ topofPage, selectedPage, setSelectedPage }) => {
             !isSmallScreen && menuToggled && (
               <div className='fixed right-0 bottom-0 h-full bg-[#152238] shadow-lg w-[250px]'>
                 <div className='flex justify-end p-8'>
-                  <button className='rounded-full bg-[#EE4E34] p-2' onClick={() => setMenuToggled(!menuToggled)}>
+                  <button className='rounded-full bg-[#FC575E] p-2' onClick={handleMenu}>
                     <AiOutlineClose size={20} className='text-white'/>
                   </button>
                 </div>

@@ -1,14 +1,15 @@
 import { useEffect } from 'react'
 import { useState } from 'react'
+import { About } from './Components/About'
 import { Hero } from './Components/Hero'
 import { Navbar } from './Components/Navbar'
-import { useMediaQuery } from './hooks/useMediaQuery'
+// import { useMediaQuery } from './hooks/useMediaQuery'
 
 function App () {
 
   const [selectedPage, setSelectedPage] = useState('home')
   const [topofPage, setTopofPage] = useState(true)
-  const mediaQuery = useMediaQuery("(min-width: 1060px)")
+  // const mediaQuery = useMediaQuery("(min-width: 1060px)")
 
   useEffect(() => {
     const handleScroll = () => {
@@ -17,12 +18,13 @@ function App () {
     }
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
-  })
+  }, [])
 
   return (
-    <div className='App'>
+    <div className='App font-fira'>
       <Navbar topofPage={topofPage} selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
       <Hero />
+      <About />
     </div>
   )
 }

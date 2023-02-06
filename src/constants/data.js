@@ -1,4 +1,3 @@
-
 export const navLinks = [
   {
     id: 1,
@@ -10,10 +9,12 @@ export const navLinks = [
   },
   {
     id: 3,
-    linkName: 'Skills'
+    linkName: 'Projects'
   },
   {
     id: 4,
-    linkName: 'Projects'
+    linkName: 'Contact'
   },
 ]
+
+

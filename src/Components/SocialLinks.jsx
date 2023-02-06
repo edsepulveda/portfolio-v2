@@ -1,4 +1,4 @@
-import { BsFacebook, BsTwitter, BsLinkedin } from "react-icons/bs";
+import { BsTwitter, BsLinkedin } from "react-icons/bs";
 
 export const SocialLinks = () => {
   return (
@@ -16,12 +16,6 @@ export const SocialLinks = () => {
           className="hover:opacity-25 hover:scale-125 transition duration-500"
         >
           <BsTwitter color="#1DA1F2" size={35} />
-        </a>
-        <a
-          href="#"
-          className="hover:opacity-25 hover:scale-125 transition duration-500"
-        >
-          <BsFacebook color="#4267B2" size={35} />
         </a>
       </ul>
     </div>
