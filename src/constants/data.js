@@ -22,8 +22,8 @@ export const navLinks = [
 export const ProjectsV2 = [
   {
     id: 1,
-    title: 'Currency Converter',
-    desc: 'App fullstack created with React, MantineJS & React Query',
+    title: 'Blog About Programming',
+    desc: 'Blog created with React, NodeJS, MongoDB and TailwindCSS',
     img: About,
     demo: 'https://bit.ly/3YsxjgN',
     code: 'https://bit.ly/3YsxjgN'
