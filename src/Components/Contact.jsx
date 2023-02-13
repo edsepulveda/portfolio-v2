@@ -8,6 +8,7 @@ export const Contact = () => {
         <p className='mb-5 lg:mb-10 text-sm lg:text-lg'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod veritatis labore neque dolorum, et soluta.</p>
         <p className='py-2'>Email: <span className='hover:underline font-bold'>ed.sepulveda12@gmail.com</span></p>
         <p className='py-2'>Or: <span className='hover:underline font-bold'>eduardosepulveda1212@gmail.com</span></p>
+        <p className='py-2'><a href="https://www.linkedin.com/in/ed-sepulveda-narvaez" className='hover:underline font-bold'>Linkedin</a></p>
       </div>
     </section>
   )

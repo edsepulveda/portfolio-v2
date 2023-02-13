@@ -22,7 +22,7 @@ export const navLinks = [
 export const ProjectsV2 = [
   {
     id: 1,
-    title: 'Blog About Programming',
+    title: 'Blog',
     desc: 'Blog created with React, NodeJS, MongoDB and TailwindCSS',
     img: About,
     demo: 'https://bit.ly/3YsxjgN',
@@ -30,16 +30,16 @@ export const ProjectsV2 = [
   },
   {
     id: 2,
-    title: 'Currency Converter',
-    desc: 'App fullstack created with React, MantineJS & React Query',
+    title: 'AI Photo Generator',
+    desc: 'Usign the OpenAI API (DALL-E), with ReactJS and NodeJS',
     img: About,
     demo: 'https://bit.ly/3YsxjgN',
     code: 'https://github.com/edsepulveda'
   },
   {
     id: 3,
-    title: 'Currency Converter',
-    desc: 'App fullstack created with React, MantineJS & React Query',
+    title: 'Ecommerce Website',
+    desc: 'Ecommerce website fullstack created with ReactJS, NodeJS, Strapi, Strape and Paypal',
     img: About,
     demo: 'https://bit.ly/3YsxjgN',
     code: 'https://bit.ly/3YsxjgN'

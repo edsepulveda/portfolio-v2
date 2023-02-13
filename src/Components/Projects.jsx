@@ -1,4 +1,3 @@
-import About from '../assets/about.svg'
 import { ProjectsV2 } from '../constants/data'
 
 export const Projects = () => {
@@ -9,7 +8,7 @@ export const Projects = () => {
           <h2 className='mb-4 text-3xl lg:text-5xl tracking-wide font-bold text-[#FC575E] uppercase'>Proyectos <span className='italic text-yellow-400 font-bold'>🚧 En construcción</span></h2>
           <p className='font-light text-sm md:text-xl text-white'>Aqui es donde se encuentran mis ultimos projectos que he realizado</p>
         </div>
-        <div className='p-5 grid gap-5 lg:gap-10 lg:grid-cols-3'>
+        <div className='p-5 grid grid-cols-1 gap-5 lg:gap-10 lg:grid-cols-3 md:grid-cols-2'>
         {
               ProjectsV2.map((item) => (
                 <div key={item.id} className='rounded-xl overflow-hidden shadow-lg bg-[#1c2e4a]'>

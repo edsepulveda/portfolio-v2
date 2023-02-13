@@ -24,6 +24,7 @@ export const Footer = ({ selectedPage, setSelectedPage }) => {
             ))
           }
         </ul>
+        <a className='block text-xs mb-3' href="https://www.flaticon.com/free-icons/bag" title="bag icons">Bag icons created by Dimitry Miroliubov - Flaticon</a>
         <span className='text-sm'>© 2023-2024</span>
       </div>
     </footer>
