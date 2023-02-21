@@ -38,8 +38,8 @@ export const ProjectsV2 = [
   },
   {
     id: 3,
-    title: 'Ecommerce Website',
-    desc: 'Ecommerce website fullstack created with ReactJS, NodeJS, Strapi, Strape and Paypal',
+    title: 'Gif Viewer & Sharing',
+    desc: 'Powered by GIPHY API, usign React and TailwindCSS',
     img: About,
     demo: 'https://bit.ly/3YsxjgN',
     code: 'https://bit.ly/3YsxjgN'
