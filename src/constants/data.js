@@ -1,4 +1,5 @@
 import About from '../assets/about.svg'
+import OpenAI from '../assets/img.png'
 
 export const navLinks = [
   {
@@ -30,11 +31,11 @@ export const ProjectsV2 = [
   },
   {
     id: 2,
-    title: 'AI Photo Generator',
-    desc: 'Usign the OpenAI API (DALL-E), with ReactJS and NodeJS',
-    img: About,
-    demo: 'https://bit.ly/3YsxjgN',
-    code: 'https://github.com/edsepulveda'
+    title: 'OpenAI Showcase',
+    desc: 'Usign the OpenAI API Create IMAGES & Ask for help, built with React, ChakraUI & ExpressJS',
+    img: OpenAI,
+    demo: 'openai-showcase.vercel.app',
+    code: 'https://github.com/edsepulveda/openai-showcase'
   },
   {
     id: 3,
