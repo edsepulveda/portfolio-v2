@@ -26,7 +26,7 @@ export const ProjectsV2 = [
     title: 'Blog',
     desc: 'Blog created with React, NodeJS, MongoDB and TailwindCSS',
     img: About,
-    demo: 'https://bit.ly/3YsxjgN',
+    demo: 'https://mern-blog-app-roan.vercel.app',
     code: 'https://bit.ly/3YsxjgN'
   },
   {
@@ -34,7 +34,7 @@ export const ProjectsV2 = [
     title: 'OpenAI Showcase',
     desc: 'Usign the OpenAI API Create IMAGES & Ask for help, built with React, ChakraUI & ExpressJS',
     img: OpenAI,
-    demo: 'openai-showcase.vercel.app',
+    demo: 'https://openai-showcase.vercel.app',
     code: 'https://github.com/edsepulveda/openai-showcase'
   },
   {
