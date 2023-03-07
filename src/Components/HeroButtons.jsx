@@ -1,26 +1,25 @@
-import { AiFillGithub } from "react-icons/ai";
-import { HiOutlineDocumentText } from "react-icons/hi";
+import { AiFillGithub } from 'react-icons/ai'
+import { HiOutlineDocumentText } from 'react-icons/hi'
 
 export const Buttons = () => {
   return (
-    <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
+    <div className='flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start'>
       <a
-        rel="noopener noreferrer"
-        href="https://bit.ly/3ImkL5e"
+        rel='noopener noreferrer'
+        href='https://bit.ly/3ImkL5e'
         target='_blank'
-        className="flex flex-row gap-5 justify-center px-8 py-3 text-lg font-semibold rounded-md shadow-lg border focus:outline-transparent hover:bg-[#FC575E] hover:border-[#FC575E] focus:bg-[#FC575E] transition duration-500"
+        className='flex flex-row gap-5 justify-center px-8 py-3 text-lg font-semibold rounded-md shadow-lg border focus:outline-transparent hover:bg-[#FC575E] hover:border-[#FC575E] focus:bg-[#FC575E] transition duration-500'
       >
-        <HiOutlineDocumentText className="self-center" /> Resume
-        
+        <HiOutlineDocumentText className='self-center' /> Resume
       </a>
       <a
-        rel="noopener noreferrer"
-        href="https://github.com/edsepulveda"
+        rel='noopener noreferrer'
+        href='https://github.com/edsepulveda'
         target='_blank'
-        className="flex flex-row gap-5 justify-center px-8 py-3 text-lg font-semibold rounded-md shadow-lg border focus:outline-transparent hover:bg-[#FC575E] hover:border-[#FC575E] focus:bg-[#FC575E] transition duration-500"
+        className='flex flex-row gap-5 justify-center px-8 py-3 text-lg font-semibold rounded-md shadow-lg border focus:outline-transparent hover:bg-[#FC575E] hover:border-[#FC575E] focus:bg-[#FC575E] transition duration-500'
       >
-        <AiFillGithub className="self-center" /> Github
+        <AiFillGithub className='self-center' /> Github
       </a>
     </div>
-  );
-};
+  )
+}

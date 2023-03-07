@@ -17,7 +17,7 @@ export const navLinks = [
   {
     id: 4,
     linkName: 'Contact'
-  },
+  }
 ]
 
 export const ProjectsV2 = [
@@ -44,5 +44,5 @@ export const ProjectsV2 = [
     img: About,
     demo: 'https://bit.ly/3YsxjgN',
     code: 'https://bit.ly/3YsxjgN'
-  },
+  }
 ]

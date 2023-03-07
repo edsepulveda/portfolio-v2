@@ -8,8 +8,7 @@ import { Navbar } from './Components/Navbar'
 import { Projects } from './Components/Projects'
 // import { useMediaQuery } from './hooks/useMediaQuery'
 
-function App () {
-
+function App() {
   const [selectedPage, setSelectedPage] = useState('home')
   const [topofPage, setTopofPage] = useState(true)
   // const mediaQuery = useMediaQuery("(min-width: 1060px)")
@@ -25,7 +24,11 @@ function App () {
 
   return (
     <div className='App font-fira'>
-      <Navbar topofPage={topofPage} selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
+      <Navbar
+        topofPage={topofPage}
+        selectedPage={selectedPage}
+        setSelectedPage={setSelectedPage}
+      />
       <Hero />
       <About />
       <Projects />
