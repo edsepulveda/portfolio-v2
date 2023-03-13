@@ -8,7 +8,7 @@ export const Projects = () => {
           <h2 className='mb-4 text-3xl lg:text-5xl tracking-wide font-bold text-[#FC575E] uppercase'>
             Proyectos{' '}
             <span className='italic text-yellow-400 font-bold'>
-              🚧 En construcción
+              🚧 2/3 En construcción
             </span>
           </h2>
           <p className='font-light text-sm md:text-xl text-white'>
