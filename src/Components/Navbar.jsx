@@ -7,10 +7,9 @@ import { HiOutlineMenuAlt1 } from 'react-icons/hi'
 import { AiOutlineClose } from 'react-icons/ai'
 import { motion } from 'framer-motion'
 
-export const Navbar = ({ topofPage, selectedPage, setSelectedPage }) => {
+export const Navbar = ({ selectedPage, setSelectedPage }) => {
   const [menuToggled, setMenuToggled] = useState(false)
   const isSmallScreen = useMediaQuery('(min-width: 780px)')
-  const onScrollNavbarBackground = topofPage ? 'bg-[#1c2e4a]' : 'bg-[#1c2e4a]'
 
   const handleMenu = () => {
     setMenuToggled((prev) => !prev)
@@ -19,10 +18,10 @@ export const Navbar = ({ topofPage, selectedPage, setSelectedPage }) => {
   return (
     <header className='font-fira'>
       <nav
-        className={`${onScrollNavbarBackground} z-50 w-full fixed top-0 py-8 shadow-md lg:shadow-lg`}
+        className={`bg-[#152238] lg:bg-transparent lg:backdrop-blur-sm z-50 w-full fixed top-0 py-7 shadow-md lg:shadow-lg`}
       >
         <div className='flex items-center justify-between mx-auto w-5/6'>
-          <a href='#' className='flex items-center gap-2 text-[#FC575E]'>
+          <a href='#' className='flex items-center gap-2 text-[#e63946]'>
             <SiApachesolr className={`text-2xl lg:text-3xl`} />
             <span className='text-xl font-bold uppercase lg:text-2xl'>ED</span>
           </a>
@@ -43,7 +42,7 @@ export const Navbar = ({ topofPage, selectedPage, setSelectedPage }) => {
             </div>
           ) : (
             <button
-              className='rounded-full bg-[#FC575E] p-2'
+              className='rounded-full bg-[#e63946] p-2'
               onClick={handleMenu}
             >
               <HiOutlineMenuAlt1 size={20} className='text-white' />
@@ -52,17 +51,21 @@ export const Navbar = ({ topofPage, selectedPage, setSelectedPage }) => {
 
           {/* Mobile Menu */}
           {!isSmallScreen && menuToggled && (
-            <div className='fixed right-0 bottom-0 h-full bg-[#152238] shadow-lg w-[250px]'>
+            <motion.div
+              initial={{ width: 0 }}
+              animate={{ width: 300 }}
+              className='fixed right-0 bottom-0 h-full bg-[#152238] shadow-lg w-[250px]'
+            >
               <div className='flex justify-end p-8'>
                 <button
-                  className='rounded-full bg-[#FC575E] p-2'
+                  className='rounded-full bg-[#e63946] p-2'
                   onClick={handleMenu}
                 >
                   <AiOutlineClose size={20} className='text-white' />
                 </button>
               </div>
               <motion.div initial={{ width: 0 }} animate={{ width: 300 }}>
-                <ul className='flex flex-col gap-5 ml-[33%] text-2xl text-semibold'>
+                <ul className='flex flex-col gap-5 ml-[33%] text-2xl text-semibold uppercase'>
                   {navLinks.map((item) => (
                     <Link
                       key={item.id}
@@ -73,7 +76,7 @@ export const Navbar = ({ topofPage, selectedPage, setSelectedPage }) => {
                   ))}
                 </ul>
               </motion.div>
-            </div>
+            </motion.div>
           )}
         </div>
       </nav>

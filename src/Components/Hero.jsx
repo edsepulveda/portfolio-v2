@@ -6,10 +6,10 @@ export const Hero = () => {
   return (
     <section id='home'>
       <div className='container flex flex-col justify-center text-[#f1faee] p-9 mt-20 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between'>
-        <div className='flex flex-col justify-center p-6 text-center rounded-md lg:max-w-sm xl:max-w-lg lg:text-left'>
+        <div className='flex flex-col justify-center p-6 rounded-md lg:max-w-sm xl:max-w-lg text-left'>
           <h1 className='text-5xl font-bold leading-none sm:text-6xl'>
             Hola 👋, <br /> Soy{' '}
-            <span className='w-full py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r from-[#FC575E] to-[#F7B42C] lg:inline'>
+            <span className='w-full py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r from-[#e63946] to-[#e9c46a] lg:inline'>
               Eduardo Sepúlveda
             </span>
           </h1>

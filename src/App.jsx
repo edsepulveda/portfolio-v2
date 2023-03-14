@@ -1,17 +1,18 @@
 import { useEffect } from 'react'
 import { useState } from 'react'
-import { About } from './Components/About'
-import { Contact } from './Components/Contact'
-import { Footer } from './Components/Footer'
-import { Hero } from './Components/Hero'
-import { Navbar } from './Components/Navbar'
-import { Projects } from './Components/Projects'
-// import { useMediaQuery } from './hooks/useMediaQuery'
+import {
+  About,
+  Contact,
+  Footer,
+  Hero,
+  Navbar,
+  Projects
+} from './Components/index'
+
 
 function App() {
   const [selectedPage, setSelectedPage] = useState('home')
   const [topofPage, setTopofPage] = useState(true)
-  // const mediaQuery = useMediaQuery("(min-width: 1060px)")
 
   useEffect(() => {
     const handleScroll = () => {

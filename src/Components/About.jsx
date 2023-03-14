@@ -8,18 +8,17 @@ export const About = () => {
           <img src={AboutMe} />
         </div>
         <div className='my-auto flex flex-col gap-3 text-white text-center lg:text-left'>
-          <h1 className='text-[#FC575E] font-bold uppercase'>Acerca de mi</h1>
+          <h1 className='text-[#e63946] font-bold uppercase'>Acerca de</h1>
           <h3 className='text-3xl lg:text-4xl font-bold'>
             Full-stack Developer
           </h3>
           <p>
-            Me desempeño ampliamente en la creación de páginas utilizando
-            diversas herramientas: Ademas de utilizar herramientas Cloud,
-            principalmente AWS [EC2, S3]
+            Posee fuertes conocimientos en la creación de páginas web utilizando diversas herramientas.
+            Puede adaptarse de forma rápida hacia otras tecnologías. 
           </p>
           <div className='flex flex-col gap-8 md:gap-0 md:flex-row justify-around mt-5'>
             <ul className='list-none lg:list-disc text-left'>
-              <p className='mb-2 uppercase font-bold border-b-2 border-[#FC575E] w-5/12 lg:w-auto'>
+              <p className='mb-2 uppercase font-bold border-b-2 border-[#e63946] w-5/12 lg:w-auto'>
                 Frontend
               </p>
               <li>React</li>
@@ -28,7 +27,7 @@ export const About = () => {
             </ul>
 
             <ul className='list-none lg:list-disc text-left'>
-              <p className='mb-2 uppercase font-bold border-b-2 border-[#FC575E] w-5/12 lg:w-auto'>
+              <p className='mb-2 uppercase font-bold border-b-2 border-[#e63946] w-5/12 lg:w-auto'>
                 Backend
               </p>
               <li>NodeJS</li>

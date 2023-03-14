@@ -1,4 +1,3 @@
-import React from 'react'
 import { SiApachesolr } from 'react-icons/si'
 import { navLinks } from '../constants/data'
 import { Link } from './Link'
@@ -9,7 +8,7 @@ export const Footer = ({ selectedPage, setSelectedPage }) => {
       <div className='mx-auto max-w-screen-xl text-center'>
         <a
           href='#'
-          className='flex justify-center gap-4 text-2xl font-semibold text-[#FC575E]'
+          className='flex justify-center gap-4 text-2xl font-semibold text-[#e63946]'
         >
           <SiApachesolr className={`text-2xl lg:text-3xl`} />
           <span className='text-xl font-bold uppercase lg:text-2xl'>ED</span>
@@ -18,7 +17,7 @@ export const Footer = ({ selectedPage, setSelectedPage }) => {
           Portafolio creado con React & TailwindCSS{' '}
           <a
             href='https://github.com/edsepulveda/portfolio-v2'
-            className='hover:underline text-indigo-400'
+            className='hover:underline text-[#e9c46a]'
             target='_blank'
           >
             Repositorio

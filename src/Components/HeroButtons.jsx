@@ -8,7 +8,7 @@ export const Buttons = () => {
         rel='noopener noreferrer'
         href='https://bit.ly/3ImkL5e'
         target='_blank'
-        className='flex flex-row gap-5 justify-center px-8 py-3 text-lg font-semibold rounded-md shadow-lg border focus:outline-transparent hover:bg-[#FC575E] hover:border-[#FC575E] focus:bg-[#FC575E] transition duration-500'
+        className='flex flex-row gap-5 justify-center px-8 py-3 text-lg font-semibold rounded-md shadow-lg border focus:outline-transparent hover:bg-[#e63946] hover:border-[#e63946] focus:bg-[#e63946] transition duration-500'
       >
         <HiOutlineDocumentText className='self-center' /> Resume
       </a>
@@ -16,7 +16,7 @@ export const Buttons = () => {
         rel='noopener noreferrer'
         href='https://github.com/edsepulveda'
         target='_blank'
-        className='flex flex-row gap-5 justify-center px-8 py-3 text-lg font-semibold rounded-md shadow-lg border focus:outline-transparent hover:bg-[#FC575E] hover:border-[#FC575E] focus:bg-[#FC575E] transition duration-500'
+        className='flex flex-row gap-5 justify-center px-8 py-3 text-lg font-semibold rounded-md shadow-lg border focus:outline-transparent hover:bg-[#e63946] hover:border-[#e63946] focus:bg-[#e63946] transition duration-500'
       >
         <AiFillGithub className='self-center' /> Github
       </a>
